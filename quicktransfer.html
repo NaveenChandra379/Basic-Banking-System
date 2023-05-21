@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     
+        .actions
+  {
+    display: flex;
+    margin-left: 250px;
+    background-color: aliceblue;
+    
+    padding-left: 150px;
+    padding-bottom:30px;
+    margin-top:5px;
+    border-radius:10px;
+    margin-top: 50px;
+    margin-right: 250px;
+  }
+
+  input[type="text"]
+  {
+    border:none;
+    outline:none;
+    border-bottom: 1px solid black;
+    margin-top: 0%;
+
+  }
+  .last{
+    background-color:  aliceblue;
+    min-height:350px;
+    width:100%;
+    margin-top:  100px;
+    
+    
+  }
+  .lastLink{
+    display: inline-block;
+    margin-right: 200px;
+  }
+    </style>
+    </head>
+    <body>
+        <ul id="linkElements">
+            <li><h1>      </h1></li>
+            <li><h1>  TSF BANK   </h1></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+            <li><a href="about.html" id="about">About</a></li>
+            <li><a href="index.html" id="home">Home</a></li>
+        </ul>
+        
+
+        <form action='transaction.php' method="POST">
+
+        <div class="actions">
+        
+            
+             <div class="sender" style="margin-top: 20px;">
+                <img src="pictures/senderIcon.png" alt="sender" height="200px" width="200px">
+                <br>
+
+                <h4 style="margin-bottom: 0%;">SENDER:</h4>
+                <input type="text" id="senderName" name="senderName" placeholder="sender" >
+                
+            </div>
+        
+            <div class="banktransfer">
+                <img src="pictures/moneyTransferLogo.png" alt="transfer" height="200px" width="200px" style="margin-top:30px;margin-left: 20px;">
+                <br>
+               
+                <p  style="margin-bottom:10px;margin-top: 50px;margin-left: 20px;"><span > <input type="text" id="amount" name="amount" placeholder="         Enter  Amount"></span></p>
+                <br>
+                <input type="submit" id="submit" name="submit" style="margin-left: 50px; padding :3px 30px 3px 30px;" value="SEND">
+                
+            </div>
+        
+            <div class="receiver" style="margin-left: 50px;margin-top: 20px;">
+                <img src="pictures/senderIcon.png" alt="receiver" height="200px" width="200px">
+                <br>
+                <h4 style="margin-bottom:0%">RECEIVER:</h4>
+                <input type="text" id="receivernames" name="receivernames" placeholder="receiver">
+            </div>
+        </div>
+
+                </form>
+
+                <div class="last">
+                    <h1 style="color:black;padding-left: 150px;padding-top: 50px;">Contact</h1>
+              
+                <div class="lastLink" style="padding-left: 170px;margin-top: 10px;">
+              
+                    <a href="https://www.linkedin.com/in/naveen-chandra-9197b2249/"><img src="pictures/linkedIn.png" height="110px" width="170px"></a>
+                </div>
+                <div class="lastLink">
+                    <a href="#insta"><img src="pictures/instagram2.png" height="100px" width="100px"></a>
+                </div>
+                <div class="lastLink">
+                    <a href="#face"><img src="pictures/facebook.webp" height="100px" width="100px"></a>
+                </div>
+                <div class="lastLink">
+                    <a href="https://github.com/NaveenChandra379/"><img src="pictures/github.jpeg" height="110px" width="110px"></a>
+                </div>
+                <p style="color:black;float:right;margin-right: 130px;margin-top: 40px;">NAVEEN CHANDRA<br>+91 8712327436<br>THE SPARKS FOUNDATION</p>
+                </div>
+
+
+                
+                
+        
+
+
+    </body>

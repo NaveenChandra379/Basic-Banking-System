@@ -1,0 +1,238 @@
+html,body{
+  margin:0;
+  padding: 0;
+  height: 100%;
+}
+*{
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style-type: none;
+   
+    overflow: hidden;
+    background-color:black;
+     /* border-radius:40px;  */
+     margin-top: 0%;
+     /* width:100%; */
+     padding-top:5px;
+     margin-bottom: 0%;
+    
+  }
+  li h1{
+    float: left;
+    /* background-color: #ff6600; */
+    color:#ff6600;
+    position: relative;
+    left:5%;
+    background-color: black;
+    padding:5px 5px 5px 5px;
+    /* margin-bottom: 5px; */
+    /* margin-top: 5px; */
+  } 
+  li a{
+    float: right;
+  }
+ 
+  
+ #home,#contact,#about{
+    
+    
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 30px;
+    
+    background-color: #ff6600;
+    position: relative;
+    right:5%;
+    
+    
+    
+    
+  }
+  #home{
+    border-top-left-radius:  5px; 
+    border-bottom-left-radius:  5px;
+  }
+  #contact{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+  }
+  #home:hover,#contact:hover,#about:hover{
+    background-color: #ff5900;
+  }
+  .firsthalf{
+    background-color: aqua;
+    /* background-size: 50%; */
+    height:330px;
+
+    /* width:100%; */
+    /* margin-top: 0px; */
+    padding-top: 5px;
+   
+  }
+  
+  /* .images{
+    text-decoration: none;
+    
+    font-size: 40px;
+    
+    margin-top: 0%;
+    
+  } */
+
+  #customerLink,#moneyTransfer{
+    text-decoration: none;
+  }
+  #bankpic{
+    position: relative;
+   
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  
+  /* .welcomeText{
+    display: flex;
+    
+    
+
+  } */
+  
+  #welcome{
+    font-size: 30px;
+    /* margin-left :200px; */
+   
+
+  }
+  #tsf{
+    /* margin-left: 30px; */
+    font-size: 40px;
+    
+  }
+
+  table{
+   
+    border:3px solid black;
+    border-collapse: collapse;
+    margin-left: 30px;
+    width:90%;
+    border-radius: 10px;
+
+    
+  }
+  td,th{
+    text-align:center;
+    border:3px solid black;
+    border-radius: 10px;
+
+
+  }
+  th{
+    font-family: sans-serif;
+    height: 50px;
+  }
+  td{
+    font-size: 20px;
+    
+  }
+  td a,td abbr{
+    text-decoration: none;
+    color: #171717;
+  }
+  /* td a:hover{
+    text-decoration: none;  
+    color:black;
+  } */
+  /* tr:nth-child(even) 
+  {
+    background-color: #00e1ff;
+  } */
+  tr:hover{
+    background-color: grey;
+  }
+   
+  /* link-button */
+  
+   
+   .profile
+   {
+    display: flex;
+    gap:0px;
+    /* position: relative;
+    left:100px; */
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+   }
+   /* profile-pic of user */
+  .profileImage
+  {
+    
+    background-color: white;
+    
+    /* position: relative;
+    left:10%;
+    margin-top:20px;*/
+    
+    margin-right: 0%;
+    height: 350px;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+    width:500px;
+  }
+  
+  .profileInformation
+  {
+    
+    background-color: white;
+    font-family: sans-serif;
+    /* position: relative;
+    left:42%;
+    
+    margin-top: 20px; */
+    height: 350px;
+    width:800px;
+    padding-top: 70px;
+    padding-left:120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    /* margin-top: 20px; */
+    
+    
+    /* margin-left: 0%; */
+  }
+  
+  .function{
+    display: flex;
+  }
+
+  
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
